@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Ramírez Martínez - Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#presentacion" class="nav-logo">Alejandro Ramírez</a>
+            <ul class="nav-menu">
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#criptografia">Criptografía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="presentacion" class="hero">
+        <div class="container hero-content">
+            
+            <img src="images/perfil.jpeg" alt="Foto de Alejandro Ramírez" class="profile-pic">
+            
+            <div class="hero-text">
+                <h1>Alejandro Ramírez Martínez</h1>
+                <p class="subtitle">Estudiante de Ingeniería en Sistemas Computacionales</p>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="formacion" class="section">
+            <div class="container">
+                <h2>Formación Académica</h2>
+                <div class="education-item">
+                    <h3>Ingeniería en Sistemas Computacionales</h3>
+                    <p><strong>Escuela Superior de Cómputo (ESCOM) - IPN</strong> | Ciudad de México</p>
+                    <p>2022 – Actualidad</p>
+                </div>
+                <div class="education-item">
+                    <h3>Técnico en Computación</h3>
+                    <p><strong>CECyT No. 3 "Estanislao Ramírez Ruiz" - IPN</strong> | Ecatepec, Edo. de Méx.</p>
+                    <p>2019 – 2022</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="section section-light">
+            <div class="container">
+                <h2>Hobbies</h2>
+                <div class="hobbies-grid">
+                    
+                    <div class="hobby-card">
+                        <img src="images/pokemon.jpeg" alt="Pokémon Unite" class="hobby-img">
+                        <h3>Jugar Pokémon Unite</h3>
+                        <p>Disfruto de las partidas estratégicas y el trabajo en equipo.</p>
+                    </div>
+                    
+                    <div class="hobby-card">
+                        <img src="images/dibujo.jpeg" alt="Dibujar" class="hobby-img">
+                        <h3>Dibujar</h3>
+                        <p>Explorando la creatividad a través del dibujo tradicional.</p>
+                    </div>
+
+                    <div class="hobby-card">
+                        <img src="images/musica.webp" alt="Escuchar Música" class="hobby-img">
+                        <h3>Escuchar Música</h3>
+                        <p>Mi compañera constante para estudiar, programar y relajarme.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="criptografia" class="section">
+            <div class="container">
+                <h2>Acerca de Criptografía</h2>
+                <div class="crypto-content">
+                    <div class="crypto-text">
+                        <h3>La Historia del Cifrado César</h3>
+                        <p>El cifrado César es una de las técnicas de cifrado más simples y conocidas. Es un tipo de cifrado por sustitución en el que cada letra del texto original se reemplaza por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.</p>
+                        <p>Recibe su nombre de Julio César, quien, según Suetonio, lo utilizaba con un desplazamiento de tres posiciones (la A se convertía en D, la B en E, etc.) para proteger sus mensajes militares. Aunque hoy en día es trivial de descifrar, sentó las bases conceptuales para muchos otros métodos de cifrado.</p>
+                    </div>
+                    <div class="crypto-img">
+                        <img src="images/cifrado-cesar.png" alt="Esquema del Cifrado César">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section section-light">
+            <div class="container">
+                <h2>Contacto y Recursos</h2>
+                
+                <div class="contact-info">
+                    <h3>Correos Electrónicos</h3>
+                    <p><strong>Personal:</strong> <a href="mailto:alejandrorammartinez@gmail.com">alejandrorammartinez@gmail.com</a></p>
+                    <p><strong>Institucional:</strong> <a href="mailto:aramirezm1907@alumno.ipn.mx">aramirezm1907@alumno.ipn.mx</a></p>
+                </div>
+
+                <div class="downloads">
+                    <h3>CV y Llave Pública</h3>
+                    
+                    <a href="docs/CV_Alejandro_Ramirez.pdf" class="btn" download>Descargar CV</a>
+                    
+                    <a href="docs/mi_llave_publica.txt" class="btn btn-secondary" download>Mi Llave Pública</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.instagram.com/alejandro513992" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/alejandro.ramirez.957657/" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Alejandro Ramírez Martínez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
