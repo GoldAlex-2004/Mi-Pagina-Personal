@@ -1,0 +1,25 @@
+Estándar DES y la NSA
+A principios de los 70, IBM desarrolló un cifrado llamado "Lucifer". El gobierno de EE. UU., a través de la NSA (Agencia de Seguridad Nacional), decidió adoptarlo como el estándar nacional (el DES), pero hizo dos cambios muy sospechosos.
+La NSA modificó el algoritmo original de IBM, generando pánico en la comunidad criptográfica por dos razones:
+
+La Llave (La "Puerta Principal"):
+
+El Cambio: Redujeron la llave de 128 bits a solo 56 bits.
+
+La Sospecha: Todos acusaron a la NSA de debilitar deliberadamente el cifrado. La teoría era que 56 bits era lo suficientemente corto para que la NSA pudiera romperlo con sus supercomputadoras, pero demasiado largo para que cualquier otra persona (empresas, otros países) pudiera hacerlo.
+
+Las S-Boxes (La "Puerta Trasera"):
+
+El Cambio: Reemplazaron por completo las "S-Boxes" (el corazón matemático del cifrado) por unas diseñadas por la NSA, cuya estructura interna era secreta.
+
+La Sospecha: La comunidad asumió que la NSA había introducido una "puerta trasera" (backdoor). Se creía que estas S-Boxes tenían una debilidad matemática oculta que solo la NSA conocía, permitiéndoles descifrar mensajes sin necesidad de la llave.
+
+El "chisme" resultó ser mitad verdad y mitad todo lo contrario:
+
+Sobre la Llave (Tenían Razón): En 1998, se demostró públicamente que la llave de 56 bits era insegura. Una máquina civil ("Deep Crack") la rompió por fuerza bruta en menos de 3 días. La NSA, 20 años antes, sabía que esto sería posible para ellos.
+
+Sobre las S-Boxes (Estaban Equivocados): En 1990, dos investigadores inventaron un nuevo y poderoso ataque: el criptoanálisis diferencial. Cuando probaron este ataque contra el DES, descubrieron asombrados que era casi inmune.
+
+El Plot Twist: Resultó que el diseño original de IBM (Lucifer) SÍ era vulnerable a este ataque. Los cambios "secretos" de la NSA no eran una puerta trasera; eran una protección específica contra un ataque que el resto del mundo no descubriría hasta dos décadas después.
+
+Conclusión: La NSA debilitó la puerta principal (la llave) para poder entrar, pero al mismo tiempo reforzó en secreto las paredes (las S-Boxes) contra un ataque avanzado que nadie más conocía.
